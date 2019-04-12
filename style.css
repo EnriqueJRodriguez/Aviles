@@ -36,6 +36,7 @@ nav{
     background-image:linear-gradient(to right, rgb(0, 102, 255), rgb(28, 163, 163));
     padding: 0.02em;
     border-radius: 0.5em;
+    width: 100%;
 }
 
 nav ul{
@@ -60,4 +61,27 @@ a.seleccion{
 
 section{
     margin: 0.75em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    border-radius: 0.5em;
+    font-weight: bold;
+    color: beige;
+    background-image:linear-gradient(to right, rgb(0, 61, 165), rgb(0, 146, 165));
+    width: 100%;
+}
+
+footer p{
+    margin-left: 37.5%;
+}
+
+footer img{
+    max-height: 1.5em;
+    max-width: 1.5em;
+    height: auto;
+    width: auto;
+    padding: 0.8em;
 }
