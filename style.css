@@ -75,7 +75,7 @@ footer{
 }
 
 footer p{
-    margin-left: 37.5%;
+    margin-left: 35%;
 }
 
 footer img{
@@ -84,4 +84,5 @@ footer img{
     height: auto;
     width: auto;
     padding: 0.8em;
+    margin-right: 35%;
 }
