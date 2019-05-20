@@ -8,10 +8,17 @@ header{
 
 h1{
     font-family: 'Verdana',sans-serif;
+    font-weight: bold;
 }
 
 h2{
+    font-family: 'Verdana',sans-serif;
+    font-weight: bold; 
+}
+
+h3{
     font-family: 'Verdana',sans-serif; 
+    font-weight: bold;
 }
 
 header h1{
@@ -61,6 +68,12 @@ a.seleccion{
 
 section{
     margin: 0.75em;
+}
+
+section p {
+    font-family: 'Verdana',sans-serif;
+    font-size: 1em;
+    text-align: justify;
 }
 
 footer{
