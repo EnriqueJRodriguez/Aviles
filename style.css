@@ -99,3 +99,26 @@ footer img{
     padding: 0.8em;
     margin-right: 35%;
 }
+
+div{
+    margin: auto;
+    position: float;
+}
+
+.slideshow { 
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    padding: 1% 5%;   
+}
+
+.slideshow img{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
+    height: 20em;
+    left: 0;
+    top: 0;
+}
