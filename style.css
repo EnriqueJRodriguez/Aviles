@@ -109,7 +109,8 @@ div{
 
 .slideshow { 
     position: relative;
-    text-align: center;   
+    text-align: center;
+    overflow: hidden;   
 }
 
 .slideshow img{
@@ -125,4 +126,6 @@ div{
     max-height: 20em;
     left: 0;
     top: 0;
+    overflow: hidden;
+    border-radius: 2em;
 }

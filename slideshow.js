@@ -4,5 +4,5 @@ $(function(){
       $('.slideshow :first-child').fadeOut()
          .next('img').fadeIn()
          .end().appendTo('.slideshow');}, 
-      5000);
+      10000);
 });
