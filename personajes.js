@@ -18,6 +18,7 @@ $.getJSON( "./personajes.json", function( data ) {
 
 $(function(){
     json.forEach( function(element){
+        console.log(element);
         var $tr = $('.personajes').append(
             "<tr><td>" + element.nombre + "</td>" +
             "<td>" + element.ocupacion + "</td>" +
