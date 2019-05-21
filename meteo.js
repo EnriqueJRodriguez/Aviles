@@ -12,17 +12,31 @@ var settings = {
 $.ajax(settings).done(function (response) {
   $.getJSON( response.datos, function( data ) {
     var estadoCielo;
+    var referencia;
     data[0].prediccion.dia[0].estadoCielo.forEach(function(element){
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
+        if(estadoCielo.includes("despejado") || estadoCielo.includes("sol")){
+          referencia = "./multimedia/img/soleado.png"
+        }
+        if(estadoCielo.includes("lluv") | estadoCielo.includes("torm")){
+          referencia = "./multimedia/img/lluvia.png"
+        }
+        if(estadoCielo.includes("nub")){
+          referencia = "./multimedia/img/nublado.png"
+        }
+        if(estadoCielo.includes("sol") & estadoCielo.includes("nub")){
+          referencia = "./multimedia/img/solnubes.png"
+        }
       }
     });
     var $tr = $('.meteo').append(  
+    "<img src=\"" + referencia + "\">" +
     "<p>" + estadoCielo + "</p>" +
-    "<p>" + "Temperatura máxima: " + data[0].prediccion.dia[0].temperatura.maxima + "</p>" +
-    "<p>" + "Temperatura mínima: " + data[0].prediccion.dia[0].temperatura.minima + "</p>" +
-    "<p>" + "Humedad máxima: " + data[0].prediccion.dia[0].humedadRelativa.maxima + "</p>" +
-    "<p>" + "Humedad mínima: " + data[0].prediccion.dia[0].humedadRelativa.minima + "</p>"
+    "<p>" + "Temperatura máxima: " + data[0].prediccion.dia[0].temperatura.maxima + " ºC" + "</p>" +
+    "<p>" + "Temperatura mínima: " + data[0].prediccion.dia[0].temperatura.minima + " ºC" + "</p>" +
+    "<p>" + "Humedad máxima: " + data[0].prediccion.dia[0].humedadRelativa.maxima + " %" + "</p>" +
+    "<p>" + "Humedad mínima: " + data[0].prediccion.dia[0].humedadRelativa.minima + " %" +"</p>"
     ); 
   });
 }); 
