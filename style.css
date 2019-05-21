@@ -128,3 +128,21 @@ div{
     overflow: hidden;
     border-radius: 2em;
 }
+
+th, td {
+    border-bottom: 1px solid rgb(0, 61, 165);
+    font-family: 'Verdana',sans-serif;
+    margin: auto;
+    padding: 0.4em;
+    font-size: 1em;
+}
+
+table{
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+th{
+    font-weight: bolder;
+}
