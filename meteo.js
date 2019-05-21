@@ -16,7 +16,7 @@ $.ajax(settings).done(function (response) {
     data[0].prediccion.dia[0].estadoCielo.forEach(function(element){
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
-        if(estadoCielo.includes("despejado") || estadoCielo.includes("sol")){
+        if(estadoCielo.includes("desp") | estadoCielo.includes("sol")){
           referencia = "./multimedia/img/soleado.png"
         }
         if(estadoCielo.includes("lluv") | estadoCielo.includes("torm")){
