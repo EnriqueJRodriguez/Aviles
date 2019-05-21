@@ -186,6 +186,5 @@ th{
 
 .meteo img{
     float: left;
-    margin: auto;
-    width: 40%;
+    vertical-align: middle;
 }
