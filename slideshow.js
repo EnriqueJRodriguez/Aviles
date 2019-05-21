@@ -2,12 +2,9 @@ var nFotoActual = 0;
 var maxFotos = 3;
 
 function displayFoto(n) {
-    console.log("Cambiando a " + n);
     n++;
-    //Imgs
     $('.slideshow img').hide();
     $('.slideshow :nth-child(' + n + ')').fadeIn();
-    //Balls
     $('.bola').removeClass('activo');
     $('.bolas :nth-child(' + n + ')').addClass("activo");
 }

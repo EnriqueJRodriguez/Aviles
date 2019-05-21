@@ -10,16 +10,19 @@ var settings = {
 }
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
   $.getJSON( response.datos, function( data ) {
-      console.log(data);
-      data.forEach( function(element){
-        console.log(data);
-        var $tr = $('.personajes').append(
-        "<tr><td>" + element.nombre + "</td>" +
-        "<td>" + element.ocupacion + "</td>" +
-        "<td>" + element.cronologia + "</td></tr>"
-      ); 
+    var estadoCielo;
+    data[0].prediccion.dia[0].estadocielo.forEach(function(element){
+      if(element.descripcion !== ""){
+        estadoCielo = element.descripcion;
+      }
     });
-  }); 
-});
+    var $tr = $('.meteo').append(  
+    "<p>" + estadoCielo + "</p>" +
+    "<p>" + "Temperatura máxima: " + data[0].prediccion.dia[0].temperatura.maxima + "</p>" +
+    "<p>" + "Temperatura mínima: " + data[0].prediccion.dia[0].temperatura.minima + "</p>" +
+    "<p>" + "Humedad máxima: " + data[0].prediccion.dia[0].humedadRelativa.maxima + "</p>" +
+    "<p>" + "Humedad mínima: " + data[0].prediccion.dia[0].humedadRelativa.minima + "</p>"
+    ); 
+  });
+}); 
