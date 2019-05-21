@@ -16,16 +16,16 @@ $.ajax(settings).done(function (response) {
     data[0].prediccion.dia[0].estadoCielo.forEach(function(element){
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
-        if(estadoCielo.includes("desp") | estadoCielo.includes("sol")){
+        if(estadoCielo.includes("Desp") | estadoCielo.includes("Sol")){
           referencia = "./multimedia/img/soleado.png";
         }
-        if(estadoCielo.includes("lluv") | estadoCielo.includes("torm")){
+        if(estadoCielo.includes("Lluv") | estadoCielo.includes("Torm")){
           referencia = "./multimedia/img/lluvia.png";
         }
-        if(estadoCielo.includes("nub")){
+        if(estadoCielo.includes("Nub")){
           referencia = "./multimedia/img/nublado.png";
         }
-        if(estadoCielo.includes("sol") & estadoCielo.includes("nub")){
+        if(estadoCielo.includes("Sol") & estadoCielo.includes("Nub")){
           referencia = "./multimedia/img/solnubes.png";
         }
       }
