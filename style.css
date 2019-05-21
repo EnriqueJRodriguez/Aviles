@@ -77,6 +77,13 @@ section p {
     text-align: justify;
 }
 
+section img {
+    float: left;
+    clear: both;
+    max-height: 7em;
+    margin: 1em;
+}
+
 footer{
     display: flex;
     align-items: center;
