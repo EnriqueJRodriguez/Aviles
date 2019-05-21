@@ -12,7 +12,7 @@ var settings = {
 $.ajax(settings).done(function (response) {
   $.getJSON( response.datos, function( data ) {
     var estadoCielo;
-    data[0].prediccion.dia[0].estadocielo.forEach(function(element){
+    data[0].prediccion.dia[0].estadoCielo.forEach(function(element){
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
       }
