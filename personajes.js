@@ -1,8 +1,8 @@
-var jason;
+var json;
 
 $.getJSON( "./personajes.json", function( data ) {
     console.log(data);
-    jason = data; 
+    json = data; 
 });
 
 $(function() {
