@@ -1,3 +1,4 @@
+// Composición de json en https://opendata.aemet.es/opendata/sh/efd141a4
 var settings = {
   "async": true,
   "crossDomain": true,
