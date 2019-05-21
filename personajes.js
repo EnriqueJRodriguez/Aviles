@@ -2,7 +2,15 @@ var json = [];
 
 $.getJSON( "./personajes.json", function( data ) {
     console.log(data);
-    json = data; 
+    json = data;
+    json.forEach( function(element){
+        console.log(element);
+        var $tr = $('.personajes').append(
+            "<tr><td>" + element.nombre + "</td>" +
+            "<td>" + element.ocupacion + "</td>" +
+            "<td>" + element.cronologia + "</td></tr>"
+        );
+    }); 
 });
 
 /* $(function() {
@@ -17,14 +25,7 @@ $.getJSON( "./personajes.json", function( data ) {
 }); */
 
 $(function(){
-    json.forEach( function(element){
-        console.log(element);
-        var $tr = $('.personajes').append(
-            "<tr><td>" + element.nombre + "</td>" +
-            "<td>" + element.ocupacion + "</td>" +
-            "<td>" + element.cronologia + "</td></tr>"
-        );
-    });
+    
 });
 
 
