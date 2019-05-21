@@ -1,4 +1,4 @@
-var json;
+var json = [];
 
 $.getJSON( "./personajes.json", function( data ) {
     console.log(data);
