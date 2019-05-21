@@ -31,7 +31,7 @@ $.ajax(settings).done(function (response) {
       }
     });
     var $tr = $('.meteo').append(  
-    "<img src=\"" + referencia + "\">" +
+    "<img src=\"" + referencia + "\" alt=\"Icono meteorologico\">" +
     "<p>" + estadoCielo + "</p>" +
     "<p>" + "Temperatura máxima: " + data[0].prediccion.dia[0].temperatura.maxima + " ºC" + "</p>" +
     "<p>" + "Temperatura mínima: " + data[0].prediccion.dia[0].temperatura.minima + " ºC" + "</p>" +

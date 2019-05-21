@@ -176,4 +176,8 @@ th{
 
 .activo {
     background: rgb(0, 102, 255);
-} 	
+}
+
+.meteo{
+    align-items: center;
+}
