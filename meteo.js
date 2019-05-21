@@ -17,16 +17,16 @@ $.ajax(settings).done(function (response) {
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
         if(estadoCielo.includes("desp") | estadoCielo.includes("sol")){
-          referencia = "./multimedia/img/soleado.png"
+          referencia = "./multimedia/img/soleado.png";
         }
         if(estadoCielo.includes("lluv") | estadoCielo.includes("torm")){
-          referencia = "./multimedia/img/lluvia.png"
+          referencia = "./multimedia/img/lluvia.png";
         }
         if(estadoCielo.includes("nub")){
-          referencia = "./multimedia/img/nublado.png"
+          referencia = "./multimedia/img/nublado.png";
         }
         if(estadoCielo.includes("sol") & estadoCielo.includes("nub")){
-          referencia = "./multimedia/img/solnubes.png"
+          referencia = "./multimedia/img/solnubes.png";
         }
       }
     });
