@@ -1,9 +1,6 @@
-var json = [];
-
 $.getJSON( "./personajes.json", function( data ) {
     console.log(data);
-    json = data;
-    json.forEach( function(element){
+    data.forEach( function(element){
         console.log(element);
         var $tr = $('.personajes').append(
             "<tr><td>" + element.nombre + "</td>" +
