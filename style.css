@@ -181,10 +181,8 @@ th{
 .meteo p{
     text-align: center;
     margin: auto;
-    width: 40%;
 }
 
 .meteo img{
-    float: left;
     vertical-align: middle;
 }
