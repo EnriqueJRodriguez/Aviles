@@ -12,6 +12,7 @@ var settings = {
 $.ajax(settings).done(function (response) {
   $.getJSON( response.datos, function( data ) {
     var estadoCielo;
+    console.log(data[0].prediccion.dia[0].estadoCielo);
     data[0].prediccion.dia[0].estadoCielo.forEach(function(element){
       if(element.descripcion !== ""){
         estadoCielo = element.descripcion;
