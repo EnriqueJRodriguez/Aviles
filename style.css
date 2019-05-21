@@ -134,7 +134,7 @@ th, td {
     font-family: 'Verdana',sans-serif;
     margin: auto;
     padding: 0.4em;
-    font-size: 1em;
+    font-size: 1.17em;
 }
 
 table{
@@ -146,3 +146,27 @@ table{
 th{
     font-weight: bolder;
 }
+
+.bolas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4em;
+}
+
+.bola {
+    margin: 0.3em;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 100%;
+    background: gray;
+}
+
+.bola:hover {
+    background: rgb(26, 25, 25);
+    transition: 0.3s;
+}
+
+.activo {
+    background: rgb(0, 102, 255);
+} 	
