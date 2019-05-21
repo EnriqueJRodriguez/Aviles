@@ -11,17 +11,15 @@ var settings = {
 
 $.ajax(settings).done(function (response) {
   console.log(response);
-  $.getJSON( response, function( data ) {
-    console.log(data.datos);
-    $.getJSON( data.datos, function( informacion ) {
-        informacion.forEach( function(element){
-            console.log(element);
-            var $tr = $('.personajes').append(
-                "<tr><td>" + element.nombre + "</td>" +
-                "<td>" + element.ocupacion + "</td>" +
-                "<td>" + element.cronologia + "</td></tr>"
-            );
-        }); 
+  $.getJSON( response.datos, function( data ) {
+      console.log(data);
+      data.forEach( function(element){
+        console.log(data);
+        var $tr = $('.personajes').append(
+        "<tr><td>" + element.nombre + "</td>" +
+        "<td>" + element.ocupacion + "</td>" +
+        "<td>" + element.cronologia + "</td></tr>"
+      ); 
     });
   }); 
 });
