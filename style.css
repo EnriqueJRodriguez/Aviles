@@ -178,6 +178,13 @@ th{
     background: rgb(0, 102, 255);
 }
 
-.meteo{
-    align-items: center;
+.meteo p{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.meteo img{
+    float: left;
+    margin: auto;
 }
