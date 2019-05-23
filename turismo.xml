@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<pagina>
+    <titulo>El sueño del acero</titulo>
+    <descripcion>La comarca de Avilés ejemplifica como ninguna el pasado, el presente y el futuro de Asturias. Por su tradición obrera y siderúrgica, de la que quedan aún multitud de restos arqueológicos industriales y chimeneas humeantes, por su capacidad para reinventarse y emerger de la crisis como un territorio moderno que sabe conservar su patrimonio y por sus sueños culturales y vanguardistas.</descripcion>
+    <puntos>
+        <punto>
+            <nombreSitio>El parque de Ferrera</nombreSitio>
+            <descripcionSitio>Esta propiedad perteneció al marquesado de Ferrera desde el siglo XV, aunque no sería hasta mediados del siglo XVII con la construcción del palacio cuando la adecuaron con el fin de transformarla en unos jardines de estilo inglés que albergaran las caballerizas y que sirviesen también como lugar de recreo para esta ilustre familia avilesina.​ Además, incluye también un jardín de estilo francés con varias fuentes en la zona más próxima al palacete, planificada a petición de la marquesa para poder pasear tranquilamente teniendo a su servicio cerca.</descripcionSitio>
+            <coordenadasSitio>
+                <latitud>43°33'09.53"N</latitud>
+                <longitud>5°55'21.55"O</longitud>
+                <altitud>29</altitud>
+            </coordenadasSitio>
+            <fotos>
+                <foto>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ParqueFerrera2.JPG/273px-ParqueFerrera2.JPG</foto>
+                <foto>http://www.asturiasturismo.com/asturias/fotografias/lugar/lugar_Parque%20Ferrera120720111135180.jpg</foto>
+                <foto>http://3.bp.blogspot.com/--t2eFsze1lI/Tt6lJgT--QI/AAAAAAAAGYg/r_YXR3JlRYY/s1600/parque-ferrera-22.JPG</foto>
+            </fotos>
+            <videos>
+                <video>https://youtu.be/93dWoDRacdY</video>
+            </videos>
+            <curiosidades>
+                <curiosidad></curiosidad>
+                <curiosidad></curiosidad>
+            </curiosidades>
+            <noticias>
+                <noticia></noticia>
+                <noticia></noticia>
+            </noticias>
+            <locales>
+                <local>
+                    <nombre></nombre>
+                    <tipo></tipo>
+                    <horario></horario>
+                    <contacto></contacto>
+                </local>
+            </locales>
+        </punto>
+        <punto>
+            <nombreSitio>Embalse de Trasona</nombreSitio>
+            <descripcionSitio>En sus aguas entrenan profesionales del piragüismo y del remo y se celebran numerosos campeonatos internacionales. Podemos destacar al palista avilesino Enrique José Rodríguez Martín, tricampeón de Asturias de Surfski entre otras gestas de su carrera deportiva.</descripcionSitio>
+            <coordenadasSitio>
+                <latitud>43°32'47.45"N</latitud>
+                <longitud>5°52'42.33"O</longitud>
+                <altitud>22</altitud>
+            </coordenadasSitio>
+            <fotos>
+                <foto>http://aviles.es/documents/12317/22611/Jira.jpg/16728ec1-086d-49ab-8bee-4754ed08c89f?t=1407239275194</foto>
+                <foto>http://www.asturiactiva.com/sites/default/files/EmbalsedeTrasona_1.jpg</foto>
+                <foto>https://1.bp.blogspot.com/-wBvmW9i8pts/V9-nIWc8t_I/AAAAAAAGJ0U/5muL9ovUdRkguAweicb9WnQZ_j8SNkFLQCLcB/s1600/Cand%25C3%25A1s-0021.jpg</foto>
+            </fotos>
+            <videos>
+                <video>https://youtu.be/iMMKfqGkR1U</video>
+            </videos>
+            <curiosidades>
+                <curiosidad></curiosidad>
+                <curiosidad></curiosidad>
+            </curiosidades>
+            <noticias>
+                <noticia></noticia>
+                <noticia></noticia>
+            </noticias>
+            <locales>
+                <local>
+                    <nombre></nombre>
+                    <tipo></tipo>
+                    <horario></horario>
+                    <contacto></contacto>
+                </local>
+            </locales>
+        </punto>
+        <punto>
+            <nombreSitio>Ermita Nuestra Señora Virgen de La Luz</nombreSitio>
+            <descripcionSitio>Ermita situada en la cumbre de la colina de la Xuncarosa, dispone una de las mejores panorámicas de la Villa de Avilés.</descripcionSitio>
+            <coordenadasSitio>
+                <latitud>43°32'27.70"N</latitud>
+                <longitud>5°54'48.37"O</longitud>
+                <altitud>107</altitud>
+            </coordenadasSitio>
+            <fotos>
+                <foto>http://www.gruposhowaviles2018.com/quever/img_3718_thumb.jpg</foto>
+                <foto>https://static.panoramio.com.storage.googleapis.com/photos/large/35689115.jpg</foto>
+                <foto>https://static3.elcomercio.es/www/multimedia/201708/11/media/cortadas/26706191-U40217265196OKI--624x416@El%20Comercio-ElComercio.JPG</foto>
+            </fotos>
+            <videos>
+                <video>https://youtu.be/QoiU9u-bMNE</video>
+            </videos>
+            <curiosidades>
+                <curiosidad></curiosidad>
+                <curiosidad></curiosidad>
+            </curiosidades>
+            <noticias>
+                <noticia></noticia>
+                <noticia></noticia>
+            </noticias>
+            <locales>
+                <local>
+                    <nombre></nombre>
+                    <tipo></tipo>
+                    <horario></horario>
+                    <contacto></contacto>
+                </local>
+            </locales>
+        </punto>
+    </punto>
+</pagina>
