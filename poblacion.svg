@@ -19,4 +19,7 @@
    <text x="600"
          y="500"
          style="writing-mode: tb; glyph-orientation-vertical: 0;">2000</text>
+    <text x="650"
+          y="500"
+          style="writing-mode: tb; glyph-orientation-vertical: 0;">2010</text>
 </svg>
