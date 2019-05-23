@@ -3,8 +3,7 @@
     <titulo>El sueño del acero</titulo>
     <descripcion>La comarca de Avilés ejemplifica como ninguna el pasado, el presente y el futuro de Asturias. Por su tradición obrera y siderúrgica, de la que quedan aún multitud de restos arqueológicos industriales y chimeneas humeantes, por su capacidad para reinventarse y emerger de la crisis como un territorio moderno que sabe conservar su patrimonio y por sus sueños culturales y vanguardistas.</descripcion>
     <puntos>
-        <punto>
-            <nombreSitio>El parque de Ferrera</nombreSitio>
+        <punto nombre="El parque de Ferrera">
             <descripcionSitio>Esta propiedad perteneció al marquesado de Ferrera desde el siglo XV, aunque no sería hasta mediados del siglo XVII con la construcción del palacio cuando la adecuaron con el fin de transformarla en unos jardines de estilo inglés que albergaran las caballerizas y que sirviesen también como lugar de recreo para esta ilustre familia avilesina.​ Además, incluye también un jardín de estilo francés con varias fuentes en la zona más próxima al palacete, planificada a petición de la marquesa para poder pasear tranquilamente teniendo a su servicio cerca.</descripcionSitio>
             <coordenadasSitio>
                 <latitud>43°33'09.53"N</latitud>
@@ -20,12 +19,12 @@
                 <video>https://youtu.be/93dWoDRacdY</video>
             </videos>
             <curiosidades>
-                <curiosidad></curiosidad>
-                <curiosidad></curiosidad>
+                <curiosidad>Es uno de los principales puntos más concurridos durante la festividad local de la "Comida en la Calle".</curiosidad>
+                <curiosidad>Numerosos jugadores de jugger utilizan las numerosas zonas verdes de las inmediaciones como campo de entrenamiento.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia></noticia>
-                <noticia></noticia>
+                <noticia>Noticia: Representantes de los partidos políticos de Avilés se reunen para una fotografía histórica.</noticia>
+                <noticia>Noticia: Una partida presupuestaria del ayuntamiento será destinada para la rehabilitación del habitat de las ocas del estanque.</noticia>
             </noticias>
             <locales>
                 <local>
@@ -36,8 +35,7 @@
                 </local>
             </locales>
         </punto>
-        <punto>
-            <nombreSitio>Embalse de Trasona</nombreSitio>
+        <punto nombre="Embalse de Trasona">
             <descripcionSitio>En sus aguas entrenan profesionales del piragüismo y del remo y se celebran numerosos campeonatos internacionales. Podemos destacar al palista avilesino Enrique José Rodríguez Martín, tricampeón de Asturias de Surfski entre otras gestas de su carrera deportiva.</descripcionSitio>
             <coordenadasSitio>
                 <latitud>43°32'47.45"N</latitud>
@@ -53,12 +51,12 @@
                 <video>https://youtu.be/iMMKfqGkR1U</video>
             </videos>
             <curiosidades>
-                <curiosidad></curiosidad>
-                <curiosidad></curiosidad>
+                <curiosidad>Piragüistas de élite como Saúl Craviotto utiliza las instalaciones del Centro de Tecnificación Deportiva situado en el embalse.</curiosidad>
+                <curiosidad>Alberga la festividad popular del 1 de mayo en las zonas de merendero.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia></noticia>
-                <noticia></noticia>
+                <noticia>Noticia: El embalse de Trasona albergará las próximas citas del campeonato de media maratón de piragüismo.</noticia>
+                <noticia>Noticia: Reabre la cafetería del Centro de Tecnificación Deportiva de Trasona tras 4 años de inactiviad.</noticia>
             </noticias>
             <locales>
                 <local>
@@ -69,8 +67,7 @@
                 </local>
             </locales>
         </punto>
-        <punto>
-            <nombreSitio>Ermita Nuestra Señora Virgen de La Luz</nombreSitio>
+        <punto nombre="Ermita Nuestra Señora Virgen de La Luz">
             <descripcionSitio>Ermita situada en la cumbre de la colina de la Xuncarosa, dispone una de las mejores panorámicas de la Villa de Avilés.</descripcionSitio>
             <coordenadasSitio>
                 <latitud>43°32'27.70"N</latitud>
@@ -86,12 +83,12 @@
                 <video>https://youtu.be/QoiU9u-bMNE</video>
             </videos>
             <curiosidades>
-                <curiosidad></curiosidad>
-                <curiosidad></curiosidad>
+                <curiosidad>Se celebra el tradicional evento en el que una pareja próxima de casarse reafirma su amor rompiendo un frasco de arroz con leche.</curiosidad>
+                <curiosidad>La ermita es uno de los edificios más antiguos de Avilés.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia></noticia>
-                <noticia></noticia>
+                <noticia>Noticia: El arzovispado anuncia la restauracion de los frescos de la ermita de La Luz.</noticia>
+                <noticia>Noticia: El ayuntamiento comienza la mejora de la via de acceso a la ermita de La Luz.</noticia>
             </noticias>
             <locales>
                 <local>
@@ -102,5 +99,5 @@
                 </local>
             </locales>
         </punto>
-    </punto>
+    </puntos>
 </pagina>
