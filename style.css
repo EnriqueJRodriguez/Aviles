@@ -180,11 +180,12 @@ th{
 }
 
 .meteo p{
-    margin-left: .5em;
+    clear: both;
+    text-align: center;
 }
 
 .meteo img{
-    margin-left: 40%;
+    margin-left: 45.5%;
     vertical-align: middle;
 }
 
