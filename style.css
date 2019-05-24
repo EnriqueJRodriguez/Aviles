@@ -78,11 +78,28 @@ section p{
     text-align: justify;
 }
 
-section img {
+.logo {
     float: left;
     clear: both;
     max-height: 7em;
     margin: 1em;
+}
+
+section img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 40em;
+    height: auto;
+    border-radius: 0.75em;
+}
+
+blockquote{
+    text-align: center;
+    text-shadow: 0.2em;
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 footer{
