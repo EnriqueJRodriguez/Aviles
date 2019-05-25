@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="pagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="titulo"/>
+        <xs:element type="xs:string" name="descripcion"/>
+        <xs:element name="puntos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="punto" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="descripcionSitio"/>
+                    <xs:element name="coordenadasSitio">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="latitud"/>
+                          <xs:element type="xs:float" name="longitud"/>
+                          <xs:element type="xs:byte" name="altitud"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="fotos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="foto" maxOccurs="unbounded" minOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="videos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="video"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="curiosidades">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="curiosidad" maxOccurs="unbounded" minOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="noticias">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="noticia" maxOccurs="unbounded" minOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="locales">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="local" maxOccurs="unbounded" minOccurs="1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="nombre"/>
+                                <xs:element type="xs:string" name="tipo"/>
+                                <xs:element type="xs:string" name="horario"/>
+                                <xs:element type="xs:string" name="contacto"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="nombre" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
