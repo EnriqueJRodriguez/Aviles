@@ -1,8 +1,8 @@
 <!ELEMENT pagina (titulo,descripcion,puntos)>
 <!ELEMENT puntos (punto+)>
-<!ELEMENT punto (descripcionSitio,cordenadasSitio,fotos,videos,curiosidades,noticias,locales)>
+<!ELEMENT punto (descripcionSitio,coordenadasSitio,fotos,videos,curiosidades,noticias,locales)>
 <!ELEMENT descripcionSitio (#PCDATA)>
-<!ELEMENT cordenadasSitio (latitud,longitud,altitud)>
+<!ELEMENT coordenadasSitio (latitud,longitud,altitud)>
 <!ELEMENT latitud (#PCDATA)>
 <!ELEMENT longitud (#PCDATA)>
 <!ELEMENT altitud (#PCDATA)>
