@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="turismo.xsl"?>
 <!DOCTYPE rutas SYSTEM "turismo.dtd">
 <pagina>
     <titulo>El sueño del acero</titulo>
@@ -24,8 +25,8 @@
                 <curiosidad>Numerosos jugadores de jugger utilizan las numerosas zonas verdes de las inmediaciones como campo de entrenamiento.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia>Noticia: Representantes de los partidos políticos de Avilés se reunen para una fotografía histórica.</noticia>
-                <noticia>Noticia: Una partida presupuestaria del ayuntamiento será destinada para la rehabilitación del habitat de las ocas del estanque.</noticia>
+                <noticia>Representantes de los partidos políticos de Avilés se reunen para una fotografía histórica.</noticia>
+                <noticia>Una partida presupuestaria del ayuntamiento será destinada para la rehabilitación del habitat de las ocas del estanque.</noticia>
             </noticias>
             <locales>
                 <local>
@@ -62,8 +63,8 @@
                 <curiosidad>Alberga la festividad popular del 1 de mayo en las zonas de merendero.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia>Noticia: El embalse de Trasona albergará las próximas citas del campeonato de media maratón de piragüismo.</noticia>
-                <noticia>Noticia: Reabre la cafetería del Centro de Tecnificación Deportiva de Trasona tras 4 años de inactiviad.</noticia>
+                <noticia>El embalse de Trasona albergará las próximas citas del campeonato de media maratón de piragüismo.</noticia>
+                <noticia>Reabre la cafetería del Centro de Tecnificación Deportiva de Trasona tras 4 años de inactiviad.</noticia>
             </noticias>
             <locales>
                 <local>
@@ -100,8 +101,8 @@
                 <curiosidad>La ermita es uno de los edificios más antiguos de Avilés.</curiosidad>
             </curiosidades>
             <noticias>
-                <noticia>Noticia: El arzovispado anuncia la restauracion de los frescos de la ermita de La Luz.</noticia>
-                <noticia>Noticia: El ayuntamiento comienza la mejora de la via de acceso a la ermita de La Luz.</noticia>
+                <noticia>El arzovispado anuncia la restauracion de los frescos de la ermita de La Luz.</noticia>
+                <noticia>El ayuntamiento comienza la mejora de la via de acceso a la ermita de La Luz.</noticia>
             </noticias>
             <locales>
                 <local>
