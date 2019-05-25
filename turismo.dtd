@@ -1,4 +1,6 @@
 <!ELEMENT pagina (titulo,descripcion,puntos)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT puntos (punto+)>
 <!ELEMENT punto (descripcionSitio,coordenadasSitio,fotos,videos,curiosidades,noticias,locales)>
 <!ELEMENT descripcionSitio (#PCDATA)>
