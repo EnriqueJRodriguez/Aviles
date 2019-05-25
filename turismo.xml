@@ -28,10 +28,16 @@
             </noticias>
             <locales>
                 <local>
-                    <nombre></nombre>
-                    <tipo></tipo>
-                    <horario></horario>
-                    <contacto></contacto>
+                    <nombre>NH Collection Palacio de Aviles</nombre>
+                    <tipo>Tipo de negocio: Hotel</tipo>
+                    <horario>Horario: Recepción 24 horas</horario>
+                    <contacto>Teléfono: 916 00 83 36</contacto>
+                </local>
+                <local>
+                    <nombre>Casa Tataguyo</nombre>
+                    <tipo>Tipo de negocio: Restaurante</tipo>
+                    <horario>Horario: De lunes a viernes de 9:00-24:00</horario>
+                    <contacto>Teléfono: 985 56 48 15</contacto>
                 </local>
             </locales>
         </punto>
@@ -60,10 +66,16 @@
             </noticias>
             <locales>
                 <local>
-                    <nombre></nombre>
-                    <tipo></tipo>
-                    <horario></horario>
-                    <contacto></contacto>
+                    <nombre>ParqueAstur</nombre>
+                    <tipo>Tipo de negocio: Centro Comercial</tipo>
+                    <horario>Horario: Todos los días de 10:00-22:00</horario>
+                    <contacto>Teléfono: 985 51 46 17</contacto>
+                </local>
+                <local>
+                    <nombre>URH Hotel Spa Zen Balagares</nombre>
+                    <tipo>Tipo de negocio: Hotel</tipo>
+                    <horario>Horario: Recepción 24 horas</horario>
+                    <contacto>Teléfono: 974 56 88 87</contacto>
                 </local>
             </locales>
         </punto>
@@ -92,10 +104,16 @@
             </noticias>
             <locales>
                 <local>
-                    <nombre></nombre>
-                    <tipo></tipo>
-                    <horario></horario>
-                    <contacto></contacto>
+                    <nombre>Restaurante-Sidrería Panorama</nombre>
+                    <tipo>Tipo de negocio: Restaurante</tipo>
+                    <horario>Horario: Todos los días de 12:00-1:45</horario>
+                    <contacto>Teléfono: 985 57 99 84</contacto>
+                </local>
+                <local>
+                    <nombre>Parrilla-Sidrería Los Sauces</nombre>
+                    <tipo>Tipo de negocio: Restaurante</tipo>
+                    <horario>Horario: De martes a domingo de 11:00-24:00</horario>
+                    <contacto>Teléfono: 985 54 90 19</contacto>
                 </local>
             </locales>
         </punto>
