@@ -3,7 +3,7 @@
 <!ELEMENT punto (descripcionSitio,cordenadasSitio,fotos,videos,curiosidades,noticias,locales)>
 <!ELEMENT descripcionSitio (#PCDATA)>
 <!ELEMENT cordenadasSitio (latitud,longitud,altitud)>
-<!ELEMENT descripcionSitio (foto+)>
+<!ELEMENT fotos (foto+)>
 <!ELEMENT foto (#PCDATA)>
 <!ELEMENT videos (video+)>
 <!ELEMENT video (#PCDATA)>
