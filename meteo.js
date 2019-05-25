@@ -1,3 +1,7 @@
+class Meteo{
+constructor(){}
+
+execute(){
 // Composición de json en https://opendata.aemet.es/opendata/sh/efd141a4
 var settings = {
   "async": true,
@@ -40,4 +44,8 @@ $.ajax(settings).done(function (response) {
     "<p>" + "Humedad mínima: " + data[0].prediccion.dia[0].humedadRelativa.minima + " %" +"</p>"
     ); 
   });
-}); 
+});
+} 
+}
+var m = new Meteo();
+m.execute();

@@ -1,3 +1,6 @@
+class Slideshow{
+    constructor(){}
+loop(){
 var nFotoActual = 0;
 var maxFotos = 3;
 
@@ -28,3 +31,6 @@ $(function() {
         displayFoto(nFotoActual);
     }, 6000);
 });
+}}
+var s = new Slideshow();
+s.loop(); 
