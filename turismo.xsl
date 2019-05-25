@@ -37,7 +37,7 @@
                         <ul>
                             <xsl:for-each select="fotos/foto">
                                 <xsl:variable name="href"><xsl:value-of select="."/></xsl:variable> 
-                                <li><a href="{$href}"><xsl:value-of select="."/></a></li>
+                                <img src="{$href}" alt="Fotografia del punto. {$href}"/>
                             </xsl:for-each>
                         </ul>
                         <h3>Vídeos</h3>

@@ -12,9 +12,8 @@
                 <altitud>29</altitud>
             </coordenadasSitio>
             <fotos>
-                <foto>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ParqueFerrera2.JPG/273px-ParqueFerrera2.JPG</foto>
-                <foto>http://www.asturiasturismo.com/asturias/fotografias/lugar/lugar_Parque%20Ferrera120720111135180.jpg</foto>
-                <foto>http://3.bp.blogspot.com/--t2eFsze1lI/Tt6lJgT--QI/AAAAAAAAGYg/r_YXR3JlRYY/s1600/parque-ferrera-22.JPG</foto>
+                <foto>./multimedia/img/ferrera1.jpg</foto>
+                <foto>./multimedia/img/ferrera2.jpg</foto>
             </fotos>
             <videos>
                 <video>https://youtu.be/93dWoDRacdY</video>
@@ -50,9 +49,9 @@
                 <altitud>22</altitud>
             </coordenadasSitio>
             <fotos>
-                <foto>http://aviles.es/documents/12317/22611/Jira.jpg/16728ec1-086d-49ab-8bee-4754ed08c89f?t=1407239275194</foto>
-                <foto>http://www.asturiactiva.com/sites/default/files/EmbalsedeTrasona_1.jpg</foto>
-                <foto>https://1.bp.blogspot.com/-wBvmW9i8pts/V9-nIWc8t_I/AAAAAAAGJ0U/5muL9ovUdRkguAweicb9WnQZ_j8SNkFLQCLcB/s1600/Cand%25C3%25A1s-0021.jpg</foto>
+                <foto>./multimedia/img/trasona1.jpg</foto>
+                <foto>./multimedia/img/trasona2.jpg</foto>
+                <foto>./multimedia/img/trasona3.jpg</foto>
             </fotos>
             <videos>
                 <video>https://youtu.be/iMMKfqGkR1U</video>
@@ -88,9 +87,7 @@
                 <altitud>107</altitud>
             </coordenadasSitio>
             <fotos>
-                <foto>http://www.gruposhowaviles2018.com/quever/img_3718_thumb.jpg</foto>
-                <foto>https://static.panoramio.com.storage.googleapis.com/photos/large/35689115.jpg</foto>
-                <foto>https://static3.elcomercio.es/www/multimedia/201708/11/media/cortadas/26706191-U40217265196OKI--624x416@El%20Comercio-ElComercio.JPG</foto>
+                <foto>./multimedia/img/ermita1.jpg</foto>
             </fotos>
             <videos>
                 <video>https://youtu.be/QoiU9u-bMNE</video>
