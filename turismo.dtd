@@ -3,6 +3,9 @@
 <!ELEMENT punto (descripcionSitio,cordenadasSitio,fotos,videos,curiosidades,noticias,locales)>
 <!ELEMENT descripcionSitio (#PCDATA)>
 <!ELEMENT cordenadasSitio (latitud,longitud,altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
 <!ELEMENT fotos (foto+)>
 <!ELEMENT foto (#PCDATA)>
 <!ELEMENT videos (video+)>
@@ -17,3 +20,4 @@
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT horario (#PCDATA)>
 <!ELEMENT contacto (#PCDATA)>
+<!ATTLIST punto nombre CDATA #REQUIRED>
