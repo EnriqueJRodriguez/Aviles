@@ -40,11 +40,11 @@ class Mapa{
     initMap(){
         var centro = {lat: 43.556111, lng:-5.922222};
         var mapaPuntos = new google.maps.Map(document.getElementById('mapa'),{zoom: 12,center:centro});
-        var i;
+        /* var i;
         for(i=0; i<this.latitudes.length; i++){
             var punto = {lat: parseFloat(this.latitudes[i]), lng: parseFloat(this.longitudes[i])};
             var marcador = new google.maps.Marker({position:punto,map:mapaPuntos,title:this.nombres[i]});
-        }
+        } */
     }
     
 }
