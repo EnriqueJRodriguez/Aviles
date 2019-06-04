@@ -231,3 +231,8 @@ li{
 footer p{
     text-align: center;
 }
+
+#mapa {
+    height: 500px;
+    width: 100%;
+}
