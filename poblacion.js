@@ -1,1 +1,5 @@
-$('.poblacion').append("<polyline points=\"50,459.7 100,440.8 200,430.6 300,420.1 400,390.1 500,100.8998 550,90 600,100 700,100 700,459.7\" style=\"fill:blue;stroke:brack;stroke-width:4\"/><text x=\"100\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-horizontal: 0;\">1860</text><text x=\"200\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">1890</text><text x=\"300\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">1920</text><text x=\"400\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">1950</text><text x=\"500\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">1970</text><text x=\"600\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">2000</text><text x=\"650\" y=\"500\" style=\"writing-mode: tb; glyph-orientation-vertical: 0;\">2010</text>");
+
+
+var s = Snap("#poblacion");
+// Lets create big circle in the middle:
+var bigCircle = s.circle(150, 150, 100);
