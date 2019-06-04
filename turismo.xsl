@@ -6,6 +6,9 @@
             <head>
                 <title>Avilés</title>
 				<link rel="stylesheet" type="text/css" href="style.css"/>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+                <script src="geolocalizacion.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=g.readFile"></script>
             </head>
             <body>
                 <header>
@@ -66,6 +69,7 @@
                         </xsl:for-each>
                     </section>
                 </xsl:for-each>
+                <div id="mapa"></div>
                 <footer>
                     <p>Página realizada por Enrique José Rodríguez Martín </p>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Copyleft.svg/1024px-Copyleft.svg.png" alt="Logotipo Copyleft"/>
