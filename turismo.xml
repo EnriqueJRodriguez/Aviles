@@ -13,7 +13,8 @@
             </coordenadasSitio>
             <fotos>
                 <foto>./multimedia/img/ferrera1.jpg</foto>
-                <foto>./multimedia/img/ferrera2.JPG</foto>
+                <foto>./multimedia/img/ferrera2.jpg</foto>
+                <foto>./multimedia/img/ferrera3.jpg</foto>
             </fotos>
             <videos>
                 <video>https://youtu.be/93dWoDRacdY</video>
@@ -88,6 +89,8 @@
             </coordenadasSitio>
             <fotos>
                 <foto>./multimedia/img/ermita1.jpg</foto>
+                <foto>./multimedia/img/ermita2.jpg</foto>
+                <foto>./multimedia/img/ermita3.jpg</foto>
             </fotos>
             <videos>
                 <video>https://youtu.be/QoiU9u-bMNE</video>
