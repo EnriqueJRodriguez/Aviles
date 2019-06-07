@@ -45,8 +45,10 @@
                         <h3>Vídeos</h3>
                         <ul>
                             <xsl:for-each select="videos/video">
-                                <xsl:variable name="href"><xsl:value-of select="."/></xsl:variable> 
-                                <li><a href="{$href}"><xsl:value-of select="."/></a></li>
+                                <video controls="controls">
+                                    <xsl:variable name="src"><xsl:value-of select="."/></xsl:variable>
+                                    <source src="{$src}" type="video/mp4"/>
+                                </video>
                             </xsl:for-each>
                         </ul>
                         <h3>Curiosidades</h3>

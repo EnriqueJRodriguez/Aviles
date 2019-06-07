@@ -17,7 +17,7 @@
                 <foto>./multimedia/img/ferrera3.jpg</foto>
             </fotos>
             <videos>
-                <video>https://youtu.be/93dWoDRacdY</video>
+                <video>./multimedia/video/ferrera.mp4</video>
             </videos>
             <curiosidades>
                 <curiosidad>Es uno de los principales puntos más concurridos durante la festividad local de la "Comida en la Calle".</curiosidad>
@@ -55,7 +55,7 @@
                 <foto>./multimedia/img/trasona3.jpg</foto>
             </fotos>
             <videos>
-                <video>https://youtu.be/iMMKfqGkR1U</video>
+                <video>./multimedia/video/trasona.mp4</video>
             </videos>
             <curiosidades>
                 <curiosidad>Piragüistas de élite como Saúl Craviotto utiliza las instalaciones del Centro de Tecnificación Deportiva situado en el embalse.</curiosidad>
@@ -93,7 +93,7 @@
                 <foto>./multimedia/img/ermita3.jpg</foto>
             </fotos>
             <videos>
-                <video>https://youtu.be/QoiU9u-bMNE</video>
+                <video>./multimedia/video/ermita.mp4</video>
             </videos>
             <curiosidades>
                 <curiosidad>Se celebra el tradicional evento en el que una pareja próxima de casarse reafirma su amor rompiendo un frasco de arroz con leche.</curiosidad>
