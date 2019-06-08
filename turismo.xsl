@@ -62,12 +62,10 @@
                         <h3>Locales próximos</h3>
                         <xsl:for-each select="locales/local">
                             <section class="local">
-                            <ul>
-                                <li><xsl:value-of select="nombre"/></li>
-                                <li><xsl:value-of select="tipo"/></li>
-                                <li><xsl:value-of select="horario"/></li>
-                                <li><xsl:value-of select="contacto"/></li>
-                            </ul>
+                                <p><b><xsl:value-of select="nombre"/></b></p>
+                                <p><xsl:value-of select="tipo"/></p>
+                                <p><xsl:value-of select="horario"/></p>
+                                <p><xsl:value-of select="contacto"/></p>
                             </section>
                         </xsl:for-each>
                     </section>

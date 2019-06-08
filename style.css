@@ -142,7 +142,6 @@ div{
     position: relative;
     display: block;
     margin-top: 1em;
-    margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     width:90em;
@@ -248,7 +247,7 @@ section ul img{
     position: relative;
     display: block;
     margin-top: 1em;
-    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     width:70em;
@@ -259,4 +258,32 @@ section ul img{
     top: 0;
     overflow: hidden;
     border-radius: 2em;
+}
+
+video{
+    position: relative;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height:auto;
+    overflow: hidden;
+}
+
+.local{
+    background-color: #6ea6ff5d;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 2em;
+}
+
+.local p {
+    text-align: center;
+}
+
+.latitud, .longitud{
+    list-style-type: none;
+    text-align: center;
 }
