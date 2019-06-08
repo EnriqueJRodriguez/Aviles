@@ -85,7 +85,7 @@ class BaseDatos {
             $currentTime = new DateTime();
             $instante = $currentTime->format( 'c' );
 
-            $consultaPre->bind_param('ssis', 
+            $consultaPre->bind_param('ss', 
                     $_POST["comentario"],$_POST["alias"], $instante);    
 
             $consultaPre->execute();
@@ -141,7 +141,7 @@ class BaseDatos {
 
             $consultaPre = $db->prepare("SELECT * FROM usuaros where alias = ?");
 
-            $consultaPre->bind_param('ssis', $_POST["alias"]);    
+            $consultaPre->bind_param('s', $_POST["alias"]);    
 
             $consultaPre->execute();
 
@@ -150,7 +150,7 @@ class BaseDatos {
 			} else {
 				$consultaPre = $db->prepare("INSERT INTO usuarios (nombre, apellidos, alias) VALUES (?,?,?)");   
         
-                $consultaPre->bind_param('ssis', 
+                $consultaPre->bind_param('sss', 
                     $_POST["nombre"],$_POST["apellidos"], $_POST["alias"]);    
 
                 $consultaPre->execute();
