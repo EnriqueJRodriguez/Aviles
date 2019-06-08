@@ -27,7 +27,7 @@
                     </ul>
                 </nav>
                 <h2><xsl:value-of select="pagina/titulo"/></h2>
-                <p><xsl:value-of select="pagina/descripcion"/></p>
+                <p><b><xsl:value-of select="pagina/descripcion"/></b></p>
                 <xsl:for-each select="pagina/puntos/punto">
                     <section>
                         <h2><xsl:value-of select="@nombre"/></h2>
