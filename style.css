@@ -13,12 +13,12 @@ h1{
 
 h2{
     font-family: 'Verdana',sans-serif;
-    font-weight: bold; 
+    font-style: italic; 
 }
 
 h3{
     font-family: 'Verdana',sans-serif; 
-    font-weight: bold;
+    font-style: italic;
 }
 
 header h1{
@@ -286,4 +286,12 @@ video{
 .latitud, .longitud{
     list-style-type: none;
     text-align: center;
+}
+
+hr { 
+    display: block;
+    overflow: hidden;
+    border: 1.2px inset blue;
+    margin-left: 3%;
+    margin-right: 3%;
 }

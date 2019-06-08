@@ -29,6 +29,7 @@
                 <h2><xsl:value-of select="pagina/titulo"/></h2>
                 <p><b><xsl:value-of select="pagina/descripcion"/></b></p>
                 <xsl:for-each select="pagina/puntos/punto">
+                    <hr></hr>
                     <section>
                         <h2><xsl:value-of select="@nombre"/></h2>
 					    <p><xsl:value-of select="descripcionSitio"/></p>
@@ -72,7 +73,9 @@
                         </xsl:for-each>
                     </section>
                 </xsl:for-each>
+                <hr></hr>
                 <div id="mapa"></div>
+                <hr></hr>
                 <footer>
                     <p>Página realizada por Enrique José Rodríguez Martín </p>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Copyleft.svg/1024px-Copyleft.svg.png" alt="Logotipo Copyleft"/>
