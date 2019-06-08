@@ -6,6 +6,7 @@
             <head>
                 <title>Avilés</title>
 				<link rel="stylesheet" type="text/css" href="style.css"/>
+                <link rel="icon" type="image/ico" href="./favicon.ico" />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
                 <script src="geolocalizacion.js"></script>
             </head>
