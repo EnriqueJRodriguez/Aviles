@@ -52,14 +52,15 @@ nav ul{
     font-family: 'Verdana',sans-serif;
     font-size: 1.45em;
     font-weight: bold;
-    display: inline-flex;
+    display: inline-flexbox;
+    overflow: auto;
 }
 
 nav ul a{
     float: left;
     color: black;
     text-decoration: none;
-    padding:0.02em; 
+    padding:0.25em; 
     padding-right: 1em;
 }
 
