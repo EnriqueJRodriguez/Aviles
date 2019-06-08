@@ -1,25 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0">
-   <polyline points="50,459.7 100,440.8 200,430.6 300,420.1 400,390.1 500,100.8998 550,90 600,100 700,100 700,459.7"
-             style="fill:blue;stroke:brack;stroke-width:4"/>
-   <text x="100"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-horizontal: 0;">1860</text>
-   <text x="200"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-vertical: 0;">1890</text>
-   <text x="300"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-vertical: 0;">1920</text>
-   <text x="400"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-vertical: 0;">1950</text>
-   <text x="500"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-vertical: 0;">1970</text>
-   <text x="600"
-         y="500"
-         style="writing-mode: tb; glyph-orientation-vertical: 0;">2000</text>
-    <text x="650"
-          y="500"
-          style="writing-mode: tb; glyph-orientation-vertical: 0;">2010</text>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg height="600" width="700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	  xml:space="preserve">
+            <polyline points="50,459.7 100,440.8 200,430.6 300,420.1 400,390.1 500,100.8998 550,90 600,80 700,70 700,459.7"
+                      style="fill:#6ea6ff;stroke:brack;stroke-width:4"/>
+            <text x="100"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">1860</text>
+            <line x1="117" y1="470" x2="117" y2="430" style="stroke:#051243;stroke-width:2" />
+            <text x="100"
+                  y="425"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">7414</text>
+            <text x="200"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">1890</text>
+            <line x1="217" y1="470" x2="217" y2="420" style="stroke:#051243;stroke-width:2" />
+            <text x="195"
+                  y="415"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">11000</text>
+            <text x="300"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">1920</text>
+            <line x1="317" y1="470" x2="317" y2="400" style="stroke:#051243;stroke-width:2" />
+            <text x="295"
+                  y="395"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">14642</text>
+            <text x="400"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">1950</text>
+            <line x1="417" y1="470" x2="417" y2="300" style="stroke:#051243;stroke-width:2" />
+            <text x="393"
+                  y="295"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">21270</text>
+            <text x="500"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">1970</text>
+            <line x1="517" y1="470" x2="517" y2="90" style="stroke:#051243;stroke-width:2" />
+            <text x="495"
+                  y="85"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">81710</text>
+            <text x="600"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">2000</text>
+            <line x1="617" y1="470" x2="617" y2="70" style="stroke:#051243;stroke-width:2" />
+            <text x="595"
+                  y="65"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">83185</text>
+            <text x="660"
+                  y="500"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">2010</text>
+            <line x1="677" y1="470" x2="677" y2="65" style="stroke:#051243;stroke-width:2" />
+            <text x="655"
+                  y="60"
+                  style="writing-mode: lr; glyph-orientation-vertical: 0; font-weight: bolder;">84202</text>
 </svg>
