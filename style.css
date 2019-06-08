@@ -145,15 +145,13 @@ div{
 }
 
 .slideshow img{
-    position: relative;
     display: block;
-    margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
-    width:90em;
+    width: 50%;
+    margin-top: 1em;
     max-width: 90em;
-    height: 20em;
-    max-height: 20em;
+    max-height: 15em;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -254,15 +252,15 @@ footer p{
 }
 
 section div img{
-    position: relative;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
-    width:70em;
     max-width: 70em;
-    height: 30em;
     max-height: 30em;
     left: 0;
     top: 0;
@@ -271,13 +269,15 @@ section div img{
 }
 
 video{
-    position: relative;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
-    width:70%;
+    width:50%;
     height:auto;
     overflow: hidden;
 }
