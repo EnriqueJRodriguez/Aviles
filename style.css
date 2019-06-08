@@ -97,7 +97,6 @@ section img {
 
 blockquote{
     text-align: center;
-    text-shadow: 0.2em;
     font-size: 1em;
     font-style: oblique;
     font-weight: bolder;
@@ -243,7 +242,7 @@ footer p{
     overflow: visible;
 }
 
-section ul img{
+section div img{
     position: relative;
     display: block;
     margin-top: 1em;
@@ -294,4 +293,9 @@ hr {
     border: 1.2px inset blue;
     margin-left: 3%;
     margin-right: 3%;
+}
+
+section div {
+    margin-top:1em;
+    margin-bottom: 1em;
 }

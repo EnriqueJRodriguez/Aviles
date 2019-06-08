@@ -39,12 +39,12 @@
                             <li class="longitud"><xsl:value-of select="coordenadasSitio/longitud"/></li>
                         </ul>
                         <h3>Fotografías</h3>
-                        <ul>
+                        <div>
                             <xsl:for-each select="fotos/foto">
                                 <xsl:variable name="href"><xsl:value-of select="."/></xsl:variable> 
                                 <img src="{$href}" alt="Fotografia del punto. {$href}"/>
                             </xsl:for-each>
-                        </ul>
+                        </div>
                         <h3>Vídeos</h3>
                         <ul>
                             <xsl:for-each select="videos/video">
@@ -64,12 +64,12 @@
                         </xsl:for-each>
                         <h3>Locales próximos</h3>
                         <xsl:for-each select="locales/local">
-                            <section class="local">
+                            <div class="local">
                                 <p><b><xsl:value-of select="nombre"/></b></p>
                                 <p><xsl:value-of select="tipo"/></p>
                                 <p><xsl:value-of select="horario"/></p>
                                 <p><xsl:value-of select="contacto"/></p>
-                            </section>
+                            </div>
                         </xsl:for-each>
                     </section>
                 </xsl:for-each>
