@@ -89,6 +89,7 @@ section p, p{
     float: left;
     clear: both;
     max-height: 7em;
+    max-width: 7em;
     margin: 1em;
 }
 
@@ -308,4 +309,5 @@ hr {
 section div {
     margin-top:1em;
     margin-bottom: 1em;
+    overflow-x: scroll;
 }
