@@ -15,12 +15,10 @@ class BaseDatos {
 						   
 			if($db->connect_error) {
 				exit ($this->html."<h1>ERROR de conexión:".$db->connect_error."</h1>".$this->footer."</body></html>"); 
-			} else {echo $this->html."<h1>Conexión establecida.</h1>";}
+			}
 				  
 			$cadenaSQL = "CREATE DATABASE IF NOT EXISTS comentarios COLLATE utf8_spanish_ci";
-			if($db->query($cadenaSQL) === TRUE){
-				echo "<h2>Base de datos Comentarios creada con éxito</h2>".$this->footer."</body></html>";
-			} else { 
+			if($db->query($cadenaSQL) === FALSE){
 				echo "<h2>ERROR en la creación de la Base de Datos Comentarios</h2>".$this->footer."</body></html>";
 				exit();
 			}   
@@ -41,9 +39,7 @@ class BaseDatos {
                         PRIMARY KEY (alias))";         
 						
            
-            if($db->query($crearTabla) === TRUE){
-                echo $this->html."<h1>Creación de tablas</h1><h2>Tabla usuarios creada con éxito.</h2>";
-            } else { 
+            if($db->query($crearTabla) === FALSE){ 
 			    echo $this->html."<h1>Creación de tablas</h1><h2>ERROR en la creación de la tabla usuarios:</h2>";
                 echo mysqli_error($db);
                 exit();
@@ -52,14 +48,12 @@ class BaseDatos {
             $crearTabla = "CREATE TABLE IF NOT EXISTS foro (
                         comentario VARCHAR(250) NOT NULL, 
                         alias VARCHAR(60) NOT NULL,
-						instante INTEGER NOT NULL,
+						instante VARCHAR(60) NOT NULL,
                         PRIMARY KEY (alias,instante),
 						FOREIGN KEY (alias) references usuarios(alias))";
             
            
-            if($db->query($crearTabla) === TRUE){
-                echo "<h2>Tabla Foro creada con éxito </h2>".$this->footer."</body></html>";
-            } else { 
+            if($db->query($crearTabla) === FALSE){
                 echo "<h2>ERROR en la creación de la tabla Foro:</h2>".$this->footer."</body></html>";
 				echo mysqli_error($db);
                 exit();
@@ -76,6 +70,8 @@ class BaseDatos {
             $this->comprobarCampos();
             $this->comprobarUsuario();
 
+            $db = new mysqli($this->servername,$this->username,$this->password,$this->database);
+
             if($db->connect_error) {
 					exit ($this->html."<h1>ERROR de conexión:".$db->connect_error."</h1>".$this->footer."</body></html>"); 
 			}
@@ -83,16 +79,14 @@ class BaseDatos {
             $consultaPre = $db->prepare("INSERT INTO foro (comentario, alias, instante) VALUES (?,?,?)");   
             
             $currentTime = new DateTime();
-            $instante = $currentTime->format( 'c' );
+            $instante = $currentTime->format( 'YmdHis' );
 
-            $consultaPre->bind_param('ss', 
+            $consultaPre->bind_param('sss', 
                     $_POST["comentario"],$_POST["alias"], $instante);    
 
             $consultaPre->execute();
 
-			if($consultaPre->affected_rows > 0) {
-				echo $this->html."<h1>Inserción completada.</h1><h2>Se ha añadido el comentario.</h2>".$this->footer."</body></html>";
-			} else {
+			if($consultaPre->affected_rows == 0) {
 				echo $this->html."<h1>No ha sido posible añadir el comentario.</h1>".$this->footer."</body></html>";
 			}
 
@@ -139,32 +133,49 @@ class BaseDatos {
                 exit ($this->html."<h1>ERROR de conexión:".$db->connect_error."</h1>".$this->footer."</body></html>"); 
             }
 
-            $consultaPre = $db->prepare("SELECT * FROM usuaros where alias = ?");
+            $consultaPre = $db->prepare("SELECT * FROM usuarios where alias = ?");
 
             $consultaPre->bind_param('s', $_POST["alias"]);    
 
             $consultaPre->execute();
 
-			if($consultaPre->num_rows > 0) {
-				exit ($this->html.$text."<p>Usuario existente.</p>".$this->footer."</body></html>");
-			} else {
-				$consultaPre = $db->prepare("INSERT INTO usuarios (nombre, apellidos, alias) VALUES (?,?,?)");   
+			if($consultaPre->num_rows == 0) {
+                $consultaPre->close();
+				$consultaPre2 = $db->prepare("INSERT INTO usuarios (nombre, apellidos, alias) VALUES (?,?,?)");   
         
-                $consultaPre->bind_param('sss', 
+                $consultaPre2->bind_param('sss', 
                     $_POST["nombre"],$_POST["apellidos"], $_POST["alias"]);    
 
-                $consultaPre->execute();
+                $consultaPre2->execute();
 
-			    if($consultaPre->affected_rows > 0) {
-				    echo $this->html."<h1>Inserción completada.</h1><h2>Se ha añadido el usuario.</h2>".$this->footer."</body></html>";
-			    } else {
+			    if($consultaPre2->affected_rows == 0) {
 				    echo $this->html."<h1>No ha sido posible añadir el usuario.</h1>".$this->footer."</body></html>";
 			    }
 			}
 
-            $consultaPre->close();
+            $consultaPre2->close();
             $db->close();
             
         }
-    }
+
+        function mostrarComentarios(){
+            $db = new mysqli($this->servername,$this->username,$this->password,$this->database);
+            $error = false;
+            $text = "<h1>Se han cometido errores</h1>";
+
+            if($db->connect_error) {
+                exit ($this->html."<h1>ERROR de conexión:".$db->connect_error."</h1>".$this->footer."</body></html>"); 
+            }
+
+            $consultaPre = $db->prepare("SELECT alias,comentario FROM foro");   
+
+            $consultaPre->execute();
+            $result = $consultaPre->get_result();
+            while($row = $result->fetch_assoc()) {
+                    echo "<section><h3>" . $row["alias"]. "</h3><p>" . $row["comentario"]. "</p></section>";
+            }
+
+            $consultaPre->close();
+            $db->close();
+        }
 }
