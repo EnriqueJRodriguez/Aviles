@@ -64,7 +64,7 @@ nav li {
 
 nav ul a{
     float: left;
-    color: black;
+    color:  #ffa500;
     text-decoration: none;
     padding:0.25em; 
     padding-right: 1em;
@@ -311,3 +311,59 @@ section div {
     margin-bottom: 1em;
     overflow-x: auto;
 }
+
+.comentario{
+    background-color: #6ea6ff5d;
+    border-radius: 2em;
+}
+
+.comentario h3, .comentario p {
+    margin:1em;
+}
+
+#formulario {
+    background-color: lightseagreen;
+    border-radius: 2em;
+}
+
+#formulario form{
+    margin:1em;
+    font-family: 'Verdana',sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#comentar{
+    background-color:blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Verdana',sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    height:3em;
+    width:7em;
+    border-radius: 0.5em;
+}
+
+input, #formulario textarea{
+    margin:1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Verdana',sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#iplargo{
+    width:90%;
+    height:auto;
+}
+
+#ipcorto{
+    width:30%;
+    height:auto;
+}
+
+

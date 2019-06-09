@@ -172,7 +172,7 @@ class BaseDatos {
             $consultaPre->execute();
             $result = $consultaPre->get_result();
             while($row = $result->fetch_assoc()) {
-                    echo "<section><h3>" . $row["alias"]. "</h3><p>" . $row["comentario"]. "</p></section>";
+                    echo "<section class=\"comentario\"><h3>" . $row["alias"]. "</h3><p>" . $row["comentario"]. "</p></section>";
             }
 
             $consultaPre->close();

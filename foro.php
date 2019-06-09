@@ -5,6 +5,6 @@ require('baseDatos.php');
 	$bd->crearBD();
 	$bd->crearTablas();
 	$bd->mostrarComentarios();
-echo "<section><form action=\"/insertarDatos.php\" method=\"post\">Nombre:<br><input type=\"text\" name=\"nombre\" value=\"Su Nombre\"><br>Apellidos:<br><input type=\"text\" name=\"apellidos\" value=\"Sus Apellidos\"><br>Alias:<br><input type=\"text\" name=\"alias\" value=\"Su Alias\"><br>Comentario:<br><input type=\"text\" name=\"comentario\" value=\"Comentario\"><br><br><input type=\"submit\" value=\"Comentar\"></form></section>";
+echo "<section id=\"formulario\"><form action=\"/insertarDatos.php\" method=\"post\">Nombre:<br><input id=\"ipcorto\" type=\"text\" name=\"nombre\" value=\"Su Nombre\"><br>Apellidos:<br><input id=\"ipcorto\" type=\"text\" name=\"apellidos\" value=\"Sus Apellidos\"><br>Alias:<br><input id=\"ipcorto\" type=\"text\" name=\"alias\" value=\"Su Alias\"><br>Comentario:<br><textarea id=\"iplargo\" rows=\"5\" type=\"text\" name=\"comentario\"></textarea><br><br><input id=\"comentar\"  type=\"submit\" value=\"Comentar\"></form></section>";
 echo "</section><footer><p>Página realizada por Enrique José Rodríguez Martín </p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Copyleft.svg/1024px-Copyleft.svg.png\" alt=\"Logotipo Copyleft\" /></footer></body></html>";
 ?>
