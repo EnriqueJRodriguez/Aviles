@@ -167,7 +167,7 @@ class BaseDatos {
                 exit ($this->html."<h1>ERROR de conexión:".$db->connect_error."</h1>".$this->footer."</body></html>"); 
             }
 
-            $consultaPre = $db->prepare("SELECT alias,comentario FROM foro");   
+            $consultaPre = $db->prepare("SELECT alias,comentario FROM foro ORDER BY instante DESC");   
 
             $consultaPre->execute();
             $result = $consultaPre->get_result();
