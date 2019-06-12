@@ -118,6 +118,16 @@ class BaseDatos {
             $_POST["apellidos"] = str_replace(";","",$_POST["apellidos"]);
             $_POST["alias"] = str_replace(";","",$_POST["alias"]);
             $_POST["comentario"] = str_replace(";","",$_POST["comentario"]);
+			
+			$_POST["nombre"] = str_replace("<","",$_POST["nombre"]);
+            $_POST["apellidos"] = str_replace("<","",$_POST["apellidos"]);
+            $_POST["alias"] = str_replace("<","",$_POST["alias"]);
+            $_POST["comentario"] = str_replace("<","",$_POST["comentario"]);
+			
+			$_POST["nombre"] = str_replace(">","",$_POST["nombre"]);
+            $_POST["apellidos"] = str_replace(">","",$_POST["apellidos"]);
+            $_POST["alias"] = str_replace(">","",$_POST["alias"]);
+            $_POST["comentario"] = str_replace(">","",$_POST["comentario"]);
         
             if($error){
                 exit ($this->html.$text."<p>Campos del formulario inválidos.</p>".$this->footer."</body></html>");
